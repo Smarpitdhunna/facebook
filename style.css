@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    box-shadow: -1px 134px 107px 2px rgba(100,94,94,0.82) inset;
+    -webkit-box-shadow: -1px 134px 107px 2px rgba(100,94,94,0.82) inset;
+    -moz-box-shadow: -1px 134px 107px 2px rgba(100,94,94,0.82) inset;
+}
+.nav {
+    height: 60px;
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 21%;
+}
+
+.b1 {
+    height: 60px;
+    width: 55px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.b1:hover {
+    transition-duration: 0.2s;
+    background-color: lightslategrey;
+}
+
+.coverphoto {
+    height: 360px;
+    width: 70%;
+    background-color: aqua;
+    margin-left: 14.5%;
+    position: relative;
+    z-index: 0;
+    
+}
+.coverphoto img {
+width: 100%;
+height: 360px;
+cursor: pointer;
+}
+
+.profile {
+    background-color: blueviolet;
+    height: 220px;
+    width: 18%;
+    margin-top: -99px;
+    position: relative;
+    z-index: 1;
+    margin-left: 18%;
+    border-radius: 150px;
+}
+.profile img {
+    height: 220px;
+    width: 100%;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.nam {
+    position: absolute;
+    top: 50%;
+    margin-left: 37%;
+    margin-top: 110px;
+    align-items: center;
+    text-align: start;
+    
+}
+.nam h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+h4{
+    position: relative;
+    margin-top: -13px;
+}
+
+.b2 {
+    height: 35px;
+    width: 90px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    margin-left: 67%;
+    margin-top: 110px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.b2:hover {
+    background-color: slategrey;
+    transition-duration: .3s;
+}
+.b3{
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 95px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    margin-left: 75%;
+    margin-top: 110px;
+    align-items: center;
+    text-align: center;
+}
+.b3:hover {
+    background-color: slategrey;
+    transition-duration: .3s;
+}
+.bt5{
+    height: 30px;
+    width: 95px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    background: none;
+}
+.nav2{
+    margin-left: 210px;
+}
+.bt5:hover{
+    background-color: slategrey;
+    transition-duration: .3s;
+}
+hr{
+    width:810px;
+    margin-left: 1px;
+    
+}
